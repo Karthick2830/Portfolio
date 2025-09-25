@@ -1,60 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio - Personal Bootstrap Template</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio - Personal Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Personal
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
   * Updated: Mar 05 2025 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="portfolio-page">
+  <body class="portfolio-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Personal</h1>
+        </a>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Personal</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <!-- <li><a href="services.html">Services</a></li> -->
-          <li><a href="portfolio.html" class="active">Portfolio</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <!-- <li><a href="services.html">Services</a></li> -->
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -71,286 +82,442 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
 
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1>Portfolio</h1>
-              <p class="mb-0">I’m a Unity developer and 3D artist with experience in creating AR/VR applications, interactive simulations, and game projects. My portfolio showcases my work in Unity development, Blender modeling and animation, and the training sessions I’ve conducted for students and faculty in immersive technologies.</p>
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title" data-aos="fade">
+        <div class="heading">
+          <div class="container">
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-lg-8">
+                <h1>Portfolio</h1>
+                <p class="mb-0">
+                  I’m a Unity developer and 3D artist with experience in
+                  creating AR/VR applications, interactive simulations, and game
+                  projects. My portfolio showcases my work in Unity development,
+                  Blender modeling and animation, and the training sessions I’ve
+                  conducted for students and faculty in immersive technologies.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+        <nav class="breadcrumbs">
+          <div class="container">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Portfolio</li>
+            </ol>
+          </div>
+        </nav>
       </div>
-      <nav class="breadcrumbs">
+      <!-- End Page Title -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
         <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio</li>
-          </ol>
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-Blender">Blender</li>
+              <li data-filter=".filter-Training">Training</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\kite.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>Eye Training Simulation in VR</p>
+                    <a
+                      href="https://mega.nz/file/MiNVjAQS#l5XB0AFBW_yLmzI-571DOu4EQvcfKfBKnoH8_obvbt8"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\pfizer.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>VR Medical Simulation Pfizer</p>
+                    <a
+                      href="https://mega.nz/file/9vE1kLyA#9hMKnTTb9bIJOQCrRTZorINQWO8A83ksPblh69GeDoM"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\musc.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>VR Medical Simulation injection</p>
+                    <a
+                      href="https://mega.nz/file/ZqcSCKBT#ADSBC6gQmsiDav98KaYeFMNTCHrCDi9fjlXTVq_cDOU"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\Liquidsconductelectricity.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>Liquids conducts Electricity</p>
+                    <a
+                      href="https://mega.nz/file/hmlzQC4Y#kLF5NqOsyVuR9WkNtNetTbCIDsLQUHmMKQ1BzZJ72qI"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\Area of circular cone.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>Area of a Circular Cone</p>
+                    <a
+                      href="https://mega.nz/file/FjUgUaZI#0OjJEq5_ZmCEz8dNtGPBMYUfT9NHKNzmmUnrPUnCt3c"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\BreastfeedingVR.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>Breast Feeding VR</p>
+                    <a
+                      href="https://mega.nz/file/M3tVHLSb#Rzig314-OajG_S_BEOQIvKHbRV3b7ukpKNzvJWmh5vE"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\CrimesceneVR.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>CrimeScene Investigation VR</p>
+                    <a
+                      href="https://mega.nz/file/47VkWBKR#WZT__1tmfyTUah7Rr9HA_1WW4rxBuPxCcj5x8p9WAqY"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\icicleQuest.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>IcicleQuest</p>
+                    <a
+                      href="https://mega.nz/file/F6UzTK4Q#YBwmA3Lh-YqdKS2wOgeheY75cPAX8BEW-DYxAkNfMnY"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\Diykit.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>App</h4>
+                    <h4>Unity</h4>
+                    <p>Radiokit Assembly Training VR</p>
+                    <a
+                      href="https://mega.nz/file/EvlGRDII#4CNpWSngiYFSu2hkoo62TbikEmhXs7uKp2EmZxPUQFk"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="video"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Blender"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\MK203.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>3d Modeling</h4>
+                    <h4>Blender</h4>
+                    <p>MK 203 Grenade</p>
+                    <a
+                      href="assets\img\portfolio\MK203.png"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="image"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Blender"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\portfolio\Knife.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>3d Modeling</h4>
+                    <h4>Blender</h4>
+                    <p>Knife</p>
+                    <a
+                      href="assets\img\portfolio\Knife.png"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="image"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Blender"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets\img\M84 Stun Granede.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>3d Modeling</h4>
+                    <h4>Blender</h4>
+                    <p>Mk-84 Stun Granede</p>
+                    <a
+                      href="assets\img\M84 Stun Granede.png"
+                      title="App Demo"
+                      class="preview-link"
+                      data-type="image"
+                    >
+                      <i class="bi bi-play-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+               
+
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
         </div>
-      </nav>
-    </div><!-- End Page Title -->
+      </section>
+      <!-- /Portfolio Section -->
+    </main>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
+    <footer id="footer" class="footer dark-background">
       <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-Blender">Blender</li>
-            <li data-filter=".filter-Training">Training</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\kite.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>Eye Training Simulation in VR</p>
-                  <a href="https://mega.nz/file/MiNVjAQS#l5XB0AFBW_yLmzI-571DOu4EQvcfKfBKnoH8_obvbt8" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-                 
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\pfizer.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>VR Medical Simulation Pfizer</p>
-                  <a href="https://mega.nz/file/9vE1kLyA#9hMKnTTb9bIJOQCrRTZorINQWO8A83ksPblh69GeDoM" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-                 
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\musc.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>VR Medical Simulation injection</p>
-                  <a href="https://mega.nz/file/ZqcSCKBT#ADSBC6gQmsiDav98KaYeFMNTCHrCDi9fjlXTVq_cDOU" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-                  
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\Liquidsconductelectricity.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>Liquids conducts Electricity</p>
-                  <a href="https://mega.nz/file/hmlzQC4Y#kLF5NqOsyVuR9WkNtNetTbCIDsLQUHmMKQ1BzZJ72qI" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-                 
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\Area of circular cone.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>Area of a Circular Cone</p>
-                  <a href="https://mega.nz/file/FjUgUaZI#0OjJEq5_ZmCEz8dNtGPBMYUfT9NHKNzmmUnrPUnCt3c" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-              
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\BreastfeedingVR.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>Breast Feeding VR</p>
-                  <a href="https://mega.nz/file/M3tVHLSb#Rzig314-OajG_S_BEOQIvKHbRV3b7ukpKNzvJWmh5vE" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-                 
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\CrimesceneVR.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>CrimeScene Investigation VR</p>
-                  <a href="https://mega.nz/file/47VkWBKR#WZT__1tmfyTUah7Rr9HA_1WW4rxBuPxCcj5x8p9WAqY" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\icicleQuest.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>IcicleQuest</p>
-                  <a href="https://mega.nz/file/F6UzTK4Q#YBwmA3Lh-YqdKS2wOgeheY75cPAX8BEW-DYxAkNfMnY" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  </a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\Diykit.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App </h4>
-                  <h4>Unity </h4>
-                  <p>Radiokit Assembly Training VR</p>
-                  <a href="https://mega.nz/file/EvlGRDII#4CNpWSngiYFSu2hkoo62TbikEmhXs7uKp2EmZxPUQFk" title="App Demo" class=" preview-link" data-type="video">
-                    <i class="bi bi-play-circle"></i>
-                  
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Blender">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\MK203.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>3d Modeling </h4>
-                  <h4>Blender </h4>
-                  <p>MK 203 Grenade</p>
-                  <i class="bi bi-play-circle"></i>
-                  
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Blender">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\portfolio\Knife.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>3d Modeling </h4>
-                  <h4>Blender </h4>
-                  <p>Knife</p>
-                  <i class="bi bi-play-circle"></i>
-                  
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Blender">
-              <div class="portfolio-content h-100">
-                <img src="assets\img\M84 Stun Granede.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>3d Modeling </h4>
-                  <h4>Blender </h4>
-                  <p>Mk-84 Stun Granede</p>
-                  <i class="bi bi-play-circle"></i>
-                  
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            ><!-- End Portfolio Item -->
-
-            
-
-          </div><!-- End Portfolio Container -->
-
+        <h3 class="sitename">Personal</h3>
+        <p>Connect with me on social platforms below.</p>
+        <div class="social-links d-flex justify-content-center">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-skype"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-  </main>
-
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <h3 class="sitename">Personal</h3>
-      <p>Connect with me on social platforms below.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">Karthick S</a>
+        <div class="container">
+          <div class="copyright">
+            <span>Copyright</span>
+            <strong class="px-1 sitename">Personal</strong>
+            <span>All Rights Reserved</span>
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            Designed by <a href="https://bootstrapmade.com/">Karthick S</a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
